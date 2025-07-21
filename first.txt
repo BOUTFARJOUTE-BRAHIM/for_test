@@ -11,3 +11,14 @@ SETS
     ETAT_PORTE = {ouverte, demi_ouverte, fermee};
     ETAT_BOUTON = {enfonce, non_enfonce};
     ETAT_VOYANT = {allume, eteint}
+
+VARIABLES
+    etage_actuel,
+    destinations,
+    boutons_appel, /* bouton etage*/
+    boutons_interieurs, 
+    voyants_appel,
+    voyants_interieurs,
+    etat_moteur_cable,
+    etat_moteur_porte,
+    etat_porte
