@@ -4,21 +4,3 @@
  */
 SYSTEM
     ascenseur1
-SETS
-    ETAGE = {ER,E0, E1, E2, E3} ; 
-    ETAT_MOTEUR_CABLE = {enroulement, deroulement, arretCable} ;
-    ETAT_MOTEUR_PORTE = {ouverture, fermeture, arret} ;
-    ETAT_PORTE = {ouverte, demi_ouverte, fermee};
-    ETAT_BOUTON = {enfonce, non_enfonce};
-    ETAT_VOYANT = {allume, eteint}
-
-VARIABLES
-    etage_actuel,
-    destinations,
-    boutons_appel, /* bouton etage*/
-    boutons_interieurs, 
-    voyants_appel,
-    voyants_interieurs,
-    etat_moteur_cable,
-    etat_moteur_porte,
-    etat_porte
